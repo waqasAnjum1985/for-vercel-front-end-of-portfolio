@@ -10,7 +10,7 @@ function Contact() {
   return (
     <div>
       <SectionTitle title="Say Hello" />
-      <div className="flex items-center justify-between flex-col md:flex-row -mt-12 -mb-28">
+      <div className="flex items-center justify-between flex-col md:flex-row ">
         <div className="flex flex-col ">
           <p className="text-tertary">{"{"}</p>
           {Object.keys(contact).map(
@@ -29,7 +29,6 @@ function Contact() {
           <DotLottieReact
             src={lottieURL}
             autoplay="true"
-            className="w-full h-full"
             loop="true"
             speed={1}
             mode="forward"
