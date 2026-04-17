@@ -13,7 +13,7 @@ function About() {
     <div>
       <SectionTitle title="About Me" />
       <div className="flex md:flex-row flex-col  w-full items-center ">
-        <div className="h-[100vh] md:w-full w-full">
+        <div className="h-[70vh]  w-full">
           <DotLottieReact
             src={lottieURL}
             autoplay="true"
