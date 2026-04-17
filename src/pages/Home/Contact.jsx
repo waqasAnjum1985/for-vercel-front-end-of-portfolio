@@ -25,7 +25,7 @@ function Contact() {
           )}
           <p className="text-tertary">{"}"}</p>
         </div>
-        <div className="h-[100vh] md:w-full w-full">
+        <div className="h-[70vh]  w-full">
           <DotLottieReact
             src={lottieURL}
             autoplay="true"
