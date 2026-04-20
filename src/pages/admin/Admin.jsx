@@ -87,7 +87,7 @@ function Admin() {
 
   return (
     <div>
-      <div className="bg-white">
+      <div className="bg-white w-full">
         <Header />
         <div className="flex gap-10  items-center m-5 mt-10 justify-between ">
           <div className="flex gap-10 items-center">
